@@ -1,39 +1,34 @@
 package com.example.certisgh.ui.theme
 
-import android.app.Activity
-import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.dynamicDarkColorScheme
-import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 
-private val DarkColorScheme = darkColorScheme(
+private val LightColorScheme = lightColorScheme(
     primary = PrimaryLight,
     onPrimary = Color.White,
     primaryContainer = PrimaryVariantLight,
     background = BackgroundLight,
     surface = SurfaceLight,
     onSurface = TextPrimaryLight,
-    inversePrimary = TextSecondaryDark,
-    inverseSurface = AccentDark,
+    inversePrimary = TextSecondaryLight,
+    inverseSurface = AccentLight,
     error = ErrorLight,
     onError = Color.White
 )
 
-private val LightColorScheme = lightColorScheme(
+private val DarkColorScheme = darkColorScheme(
     primary = PrimaryDark,
     onPrimary = Color.Black,
     primaryContainer = PrimaryVariantDark,
     background = BackgroundDark,
     surface = SurfaceDark,
     onSurface = TextPrimaryDark,
-    inverseSurface = AccentLight,
-    inversePrimary = TextPrimaryLight,
+    inverseSurface = AccentDark,
+    inversePrimary = TextSecondaryDark,
     error = ErrorDark,
     onError = Color.Black
 )

@@ -4,13 +4,21 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.certisgh.Presentation.applications.birthCerti.ApplicationDetailScreen
+import com.example.certisgh.Presentation.applications.birthCerti.BirthCertificateInstructions
+import com.example.certisgh.Presentation.applications.birthCerti.BirthCertificateSummaryScreen
+import com.example.certisgh.Presentation.applications.birthCerti.BirthDocumentUploadScreen
+import com.example.certisgh.Presentation.home.HomeScreen
+import com.example.certisgh.Presentation.verification.VerificationAndAnalysisScreen
 import com.example.certisgh.ui.theme.CertiSGHTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +27,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CertiSGHTheme {
-
+                HomeScreen(
+                    modifier = Modifier
+                )
             }
         }
     }

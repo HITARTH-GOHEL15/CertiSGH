@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.Color
 //light Theme Colors
 val PrimaryLight = Color(0xFF00BCD4) // Main Cyan for Primary Elements
 val PrimaryVariantLight = Color(0xFF0097A7) // Darker Cyan for Active States
-val BackgroundLight = Color(0xFFE0F7FA) // Soft Cyan-Tinted Background
+val BackgroundLight = Color(0xFFF5F5F5) // LightGray Background
 val SurfaceLight = Color(0xFFFFFFFF) // White Surface for Cards/Dialogs
 val TextPrimaryLight = Color(0xFF212121) // Dark Gray for Primary Text
 val TextSecondaryLight = Color(0xFF757575) // Light Gray for Secondary Text

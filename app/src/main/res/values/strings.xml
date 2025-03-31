@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CertiSGH</string>
+    <string name="birth_certificate">Birth Certificate</string>
+    <string name="caste_certificate">Caste Certificate</string>
+    <string name="income_certificate">Income Certificate</string>
+    <string name="ncl_certificate">NCL Certificate</string>
+    <string name="Death_certificate">Death Certificate</string>
 </resources>
